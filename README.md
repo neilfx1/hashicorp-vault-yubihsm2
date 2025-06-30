@@ -21,14 +21,14 @@ To document and demonstrate how to:
 
 - `README.md`: You are here.
 - `yubihsm_pkcs11.conf`: Example connector configuration file for use with PKCS#11.
-- `setup.md` *(TBD)*: Full Markdown-formatted version of the step-by-step setup instructions (currently under construction or embedded in this README).
+- `01-initial-setup.md`: Instructions for setting up the YubiHSM and Vault.
 
 ---
 
 ## 📦 Prerequisites
 
 - Vault Enterprise 1.17.2+ (`vault +ent.hsm`)
-- YubiHSM2 (firmware 2.4+ recommended)
+- YubiHSM2 (firmware 2.4+ required)
 - YubiHSM2 SDK 2025.x
 - Linux environment (tested on Ubuntu 22.04)
 - Working knowledge of Vault and hardware-backed key operations
@@ -38,7 +38,6 @@ To document and demonstrate how to:
 ## 🧪 Status
 
 ✅ Basic setup tested and operational  
-❌ No automation or Terraform yet  
 ❌ No test cases for advanced Vault usage (e.g. auto-unseal with TLS-bound connector)
 
 ---
