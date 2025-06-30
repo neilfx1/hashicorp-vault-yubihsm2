@@ -21,7 +21,7 @@ To document and demonstrate how to:
 
 - `README.md`: You are here.
 - `yubihsm_pkcs11.conf`: Example connector configuration file for use with PKCS#11.
-- `01-initial-setup.md`: Instructions for setting up the YubiHSM and Vault.
+- `01-initial-setup.md`: Instructions for setting up the YubiHSM2 and Vault.
 
 ---
 
