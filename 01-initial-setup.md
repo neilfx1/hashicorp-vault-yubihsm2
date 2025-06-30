@@ -40,7 +40,7 @@ If you are running on the yubihsm-connector on the same server as vault, 127.0.0
 yubihsm-connector -C 127.0.0.1:12345
 ```
 
-In either case, this should match your yubihsm_pkcs11.conf
+In either case, this should match your `yubihsm_pkcs11.conf`
 
 ⚠️ For production, replace 0.0.0.0 with the actual IP and use firewall rules to protect TCP port 12345.  You should also consider using TLS.  Please see the my guide at https://github.com/neilfx1/yubihsm2-adcs-tls-connector for instructions on how to achieve this.
 
