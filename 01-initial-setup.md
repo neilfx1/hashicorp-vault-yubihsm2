@@ -129,7 +129,7 @@ kms_library "pkcs11" {
 }
 ```
 
-_Ensure the `yubihsm_pkcs11.so` location matches the location on your server._
+_Ensure the `yubihsm_pkcs11.so` location matches the location on your server.  Replace 0001password with your YubiHSM2 authentication key and password.  In this example that is object ID 1 and the password is password._
 
 ---
 7. Start Vault interactively
